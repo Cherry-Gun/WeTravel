@@ -1,0 +1,63 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+    </style>
+
+    <!-- 暗色系NoActionBar-->
+    <style name="MyDarkAppTheme" parent="Theme.AppCompat.NoActionBar">
+
+    </style>
+
+    <!-- 亮色系NoActionBar-->
+    <style name="MyLightAppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+
+    </style>
+
+
+    <!-- 微游记本色（绿）主题-->
+    <style name="MyGreenAppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/planning_actionbar_background</item>
+        <item name="colorPrimaryDark">@color/planning_actionbar_background_dark</item>
+        <item name="colorAccent">@color/planning_actionbar_background_light</item>
+    </style>
+
+    <!-- 蓝色主题-->
+    <style name="MyBlueAppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/primaryDarkBlue</item>
+        <item name="colorPrimaryDark">@color/primaryBlue</item>
+        <item name="colorAccent">@color/controlNormalGreen</item>
+    </style>
+
+    <!-- 粉色主题-->
+    <style name="MyPinkAppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/accentPink</item>
+        <item name="colorPrimaryDark">@color/lightPink</item>
+        <item name="colorAccent">@color/primaryPink</item>
+    </style>
+
+
+    <!-- BottomView-->
+    <style name="BottomViewTheme_Defalut">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">false</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@color/white</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+
+    <style name="BottomToTopAnim" parent="android:Animation">
+        <item name="@android:windowEnterAnimation">@anim/bottomview_anim_enter</item>
+        <item name="@android:windowExitAnimation">@anim/bottomview_anim_exit</item>
+    </style>
+
+    <style name="cell">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@color/planning_actionbar_background</item>
+    </style>
+
+</resources>

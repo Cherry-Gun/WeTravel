@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">微游记</string>
+
+    <string name="hello_world">Hello world!</string>
+
+    <!-- 下面是自己添加的-->
+    <string name="friendly_name">梦无止境 爱故乡也爱远方</string>
+    <string name="travel_title">旅行口号:</string>
+    <string name="travel_title_details">这里输入本次旅游标题</string>
+    <string name="travel_details">旅行感悟:</string>
+    <string name="travel_details_details">请写下这次旅行的感触或在这个景点的心情</string>
+    <string name="travel_photo">美好回忆</string>
+    <string name="travel_photo_Comments">\t点相机拍照</string>
+    <string name="travel_go">现在就出发</string>
+    <string name="Copy_Right">Copyright by Mars
+All rights reversed</string>
+
+    <string name="error_network">搜索失败,请检查网络连接！</string>
+    <string name="error_key">key验证无效！</string>
+    <string name="error_other">未知错误，请稍后重试!错误码为</string>
+    <string name="no_result">对不起，没有搜索到相关数据！</string>
+    <string name="map_screenshot">地图截屏</string>
+    <string name="about_us">关于我们</string>
+    <string name="change_theme">更换主题</string>
+
+    <!-- 上面是自己添加的-->
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_startup">StartupActivity</string>
+    <string name="title_activity_guide">GuideActivity</string>
+    <string name="title_activity_start_travel">StartTravelActivity</string>
+    <string name="title_activity_menu">MenuActivity</string>
+    <string name="title_activity_travel_new">TravelNewActivity</string>
+    <string name="title_activity_travel_planning">微游记--旅行线路规划分享</string>
+    <string name="title_activity_travel_memory">TravelMemoryActivity</string>
+    <string name="title_activity_album">AlbumActivity</string>
+    <string name="title_activity_route">RouteActivity</string>
+</resources>

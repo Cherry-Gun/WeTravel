@@ -1,0 +1,19 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.xlw.ui.activity.TravelPlanningActivity">
+
+    <item
+        android:id="@+id/save_planning"
+        android:title="保存"
+        android:icon="@mipmap/saveplanning"
+        android:orderInCategory="10"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/share_planning"
+        android:title="分享"
+        android:orderInCategory="50"
+        app:showAsAction="ifRoom" />
+
+</menu>

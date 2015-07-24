@@ -1,0 +1,93 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="2dp"
+    android:background="@mipmap/travelnew_bg"
+    tools:context="com.xlw.ui.activity.TravelNewActivity">
+
+    <TextView
+        android:text="@string/travel_title"
+        android:textSize="20sp"
+        android:textColor="#0FA"
+        android:layout_marginTop="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/et01"
+        android:hint="@string/travel_title_details"
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left" />
+
+    <TextView
+        android:text="@string/travel_details"
+        android:textSize="20sp"
+        android:textColor="#0FA"
+        android:layout_marginTop="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/et02"
+        android:hint="@string/travel_details_details"
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:inputType="textMultiLine"
+        android:lines="3"
+        android:maxLines="3"
+        android:gravity="top|left" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="180dp">
+        <LinearLayout
+            android:layout_weight="0.05"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:text="@string/travel_photo"
+                android:textSize="20sp"
+                android:textColor="#0FA"
+                android:layout_marginTop="15dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <ImageView
+                android:id="@+id/camera"
+                android:layout_marginTop="15dp"
+                android:background="@mipmap/camera"
+                android:layout_width="80dp"
+                android:layout_height="80dp" />
+            <TextView
+                android:text="@string/travel_photo_Comments"
+                android:layout_marginTop="10dp"
+                android:layout_width="80dp"
+                android:layout_height="40dp" />
+        </LinearLayout>
+        <ImageView
+            android:id="@+id/firstPhoto"
+            android:background="@mipmap/newtravel"
+            android:layout_marginTop="15dp"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1.21"/>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_go"
+        android:text="@string/travel_go"
+        android:textSize="20sp"
+        android:textColor="#0FA"
+        android:shadowColor="#0FA"
+        android:layout_marginTop="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
+

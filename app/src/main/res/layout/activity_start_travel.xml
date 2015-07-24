@@ -1,0 +1,82 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="8dp"
+    tools:context="com.xlw.ui.activity.StartTravelActivity">
+
+    <TextView
+        android:text="@string/travel_title"
+        android:textSize="20sp"
+        android:textColor="#0FA"
+        android:layout_marginTop="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/et01"
+        android:hint="@string/travel_title_details"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:text="@string/travel_details"
+        android:textSize="20sp"
+        android:textColor="#0FA"
+        android:layout_marginTop="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/et02"
+        android:hint="@string/travel_details_details"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="250dp">
+        <LinearLayout
+            android:layout_weight="0.2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:text="@string/travel_photo"
+                android:textSize="20sp"
+                android:textColor="#0FA"
+                android:layout_marginTop="30dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <ImageView
+                android:id="@+id/camera"
+                android:layout_marginTop="20dp"
+                android:background="@mipmap/camera"
+                android:layout_width="80dp"
+                android:layout_height="80dp" />
+        </LinearLayout>
+        <ImageView
+            android:id="@+id/photo"
+            android:background="@mipmap/ic_launcher"
+            android:layout_marginTop="30dp"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1.21"/>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_go"
+        android:text="@string/travel_go"
+        android:textSize="20sp"
+        android:textColor="#0FA"
+        android:shadowColor="#0FA"
+        android:layout_marginTop="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal" />
+
+</LinearLayout>

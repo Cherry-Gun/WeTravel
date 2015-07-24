@@ -1,0 +1,14 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.xlw.ui.activity.FunctionActivity">
+
+    <item
+        android:id="@+id/add"
+        android:title="ADD"
+        android:icon="@mipmap/add"
+        android:orderInCategory="100"
+        app:showAsAction="ifRoom" />
+
+</menu>
+
